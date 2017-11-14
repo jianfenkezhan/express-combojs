@@ -1,0 +1,24 @@
+{
+  "name": "express-combojs",
+  "version": "1.0.2",
+  "description": "a middleware to combo asset for express.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run eslint",
+    "eslint": "eslint ."
+  },
+  "keywords": [
+    "combo",
+    "express",
+    "middleware",
+    "node"
+  ],
+  "author": "goooooog",
+  "dependencies": {
+    "fileutil": "^1.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "*"
+  },
+  "license": "MIT"
+}
