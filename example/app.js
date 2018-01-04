@@ -15,6 +15,7 @@ app.set('env', config.env);
 app.disable('x-powered-by');
 
 app.use(require('express-combojs')())
+
 // routes
 require('./routers')(app);
 

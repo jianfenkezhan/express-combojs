@@ -26,7 +26,7 @@ console.log("3.js")
 ## Usage
 
 ### combo.config.js
-first, you have to provide a `combo.config.js`, Just like below
+first, you must provide a `combo.config.js`, Just like below
 
 ```js
 module.exports = {
