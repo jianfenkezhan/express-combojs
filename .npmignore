@@ -9,8 +9,6 @@ changelog.md
 .idea/
 .ipr
 .iws
-*~
-~*
 *.diff
 *.patch
 *.bak

@@ -1,6 +1,6 @@
 {
-  "name": "express-combojs",
-  "version": "1.0.2",
+  "name": "@baifendian/express-combojs",
+  "version": "1.0.4",
   "description": "a middleware to combo asset for express.",
   "main": "index.js",
   "scripts": {
