@@ -7,6 +7,8 @@ const url = require('url');
 const config = require(path.join(process.cwd(),"combo.config.js"));
 const fileutil = require('fileutil')
 
+const defaultComboUrlRule = /^\/(\w+\/)?\-\//;
+
 /** @request:
  * http://localhost:7002/production/-/cms/1.1.0/0.js,1.js,3.js
  * @response:
@@ -25,10 +27,10 @@ module.exports = function(options) {
   options = options || {}
 
   // set combo url rule
-  let comboUrlRule = options.comboUrlRule || /^\/(\w+\/)?\-\//;
+  let comboUrlRule = options.comboUrlRule || defaultComboUrlRule;
   let comboSplit = options.split || ','
 
-  // return middleware function
+  //  return middleware function
   return function(req, res, next) {
     //parser query
     const pathname = url.parse(req.url).pathname;

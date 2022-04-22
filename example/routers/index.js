@@ -156,4 +156,8 @@ module.exports = function(app) {
     
     req.pipe(busboy);
   })
+
+  app.get('/home', function(req, res) {
+    res.render('home.html');
+  })
 };

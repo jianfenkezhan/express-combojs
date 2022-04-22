@@ -1,7 +1,10 @@
+const path = require('path')
 
 module.exports = {
-  env: 'dev',
+  env: 'test',
   auth: false,
-  path: '/Users/mujianguo/personal/codehub/express-combojs/data',
+  path: path.join( __dirname, '..', 'cdn'),
+  comboSplit: ',',
+  comboUrlRule: /^\/(\w+\/)?\-\//,
   port:  7002,
 }

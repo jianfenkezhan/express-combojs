@@ -32,7 +32,8 @@
     "express-session": "1.9.3",
     "fileutil": "*",
     "memorystream": "*",
-    "nbugs-ship-cdn": "^1.6.0"
+    "nbugs-ship-cdn": "^1.6.0",
+    "nunjucks": "^3.2.3"
   },
   "devDependencies": {
     "nodemon": "*"
