@@ -56,7 +56,7 @@ app.use(require('express-combojs')({
 
 ## example 
 
-In order to you test, i provide a example for you...
+In order to you test, i provide a example for you.
 
 then, you can git clone to test.
 
