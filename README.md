@@ -1,4 +1,5 @@
 # express-combo-middleware
+一个 express 中间件，用于合并资源请求，提供 combo 功能
 
 ## Description
 
